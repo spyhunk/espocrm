@@ -1,0 +1,3 @@
+[2025-11-26 22:39:09] WARNING: E_WARNING: rename(data\tmp\tmpB5FC.tmp,data/cache/application/routes.php): Access is denied (code: 5)
+[2025-11-26 23:13:34] WARNING: E_WARNING: mkdir(): File exists
+[2025-11-26 23:45:34] WARNING: E_WARNING: rename(data\tmp\tmp820B.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)

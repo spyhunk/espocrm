@@ -1,0 +1,20 @@
+{
+    "duplicateWhereBuilderClassName": "Espo\\Classes\\DuplicateWhereBuilders\\General",
+    "beforeCreateHookClassNameList": [
+        "Espo\\Modules\\Crm\\Classes\\RecordHooks\\Account\\BeforeUpdatePopulateDescription"
+    ],
+    "beforeUpdateHookClassNameList": [
+        "Espo\\Modules\\Crm\\Classes\\RecordHooks\\Account\\BeforeUpdatePopulateDescription"
+    ],
+    "relationships": {
+        "contacts": {
+            "mandatoryAttributeList": ["accountIsInactive"]
+        },
+        "targetLists": {
+            "mandatoryAttributeList": ["isOptedOut"]
+        },
+        "opportunities": {
+            "linkOnlyNotLinked": true
+        }
+    }
+}
